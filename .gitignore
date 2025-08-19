@@ -14,11 +14,9 @@ node_modules
 .env
 .env.local
 
-
-node_modules
+# build outputs
 dist
 dist-ssr
-*.local
 
 # Editor directories and files
 .vscode/*
@@ -30,3 +28,13 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Vite cache
+vite.config.ts.timestamp-*
+vite.config.js.timestamp-*
+
+# Misc
+Thumbs.db
+.node_repl_history
+coverage
+*.tgz
