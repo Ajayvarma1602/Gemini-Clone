@@ -37,9 +37,4 @@ vite.config.js.timestamp-*
 Thumbs.db
 .node_repl_history
 coverage
-*.tgz
-
-node_modules
-dist
-.env
-.env.local
+*.tg
